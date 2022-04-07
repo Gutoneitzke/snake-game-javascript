@@ -1,0 +1,15 @@
+:root{
+    --color-white: #fff;
+    --color-blue: #1e90ff;
+    --color-purple: #800080;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: fantasy;
+    text-align: center;
+    color: var(--color-white);
+    background: linear-gradient(to right,var(--color-blue),var(--color-purple));
+}
