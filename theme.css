@@ -4,7 +4,7 @@
     --color-purple: #800080;
     --color-dark: #202020;
     --color-gray: #808080;
-    --color-green: #46b86c;
+    --color-green: #00ff88;
 }
 *{
     margin: 0;
@@ -27,4 +27,7 @@ body{
     display: grid;
     grid-template-rows: repeat(21, 1fr);
     grid-template-columns: repeat(21, 1fr);
+}
+.snake{
+    background-color: var(--color-green);
 }
